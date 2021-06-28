@@ -1,0 +1,472 @@
+CRITICAL - 2021-06-26 01:09:02 --> Undefined variable: title
+#0 /home/BrondoL/Downloads/ppdb/app/Views/Auth/login.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/BrondoL/D...', 8, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#2 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/BrondoL/Downloads/ppdb/app/Controllers/Home.php(9): view('Auth/login')
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#10 {main}
+CRITICAL - 2021-06-26 01:10:03 --> Undefined variable: konfigurasi
+#0 /home/BrondoL/Downloads/ppdb/app/Views/Auth/login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/BrondoL/D...', 11, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#2 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/BrondoL/Downloads/ppdb/app/Controllers/Home.php(12): view('Auth/login', Array)
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#10 {main}
+CRITICAL - 2021-06-26 01:12:59 --> Undefined variable: konfigurasi
+#0 /home/BrondoL/Downloads/ppdb/app/Views/Auth/login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/BrondoL/D...', 32, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#2 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/BrondoL/Downloads/ppdb/app/Controllers/Home.php(12): view('Auth/login', Array)
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#10 {main}
+CRITICAL - 2021-06-26 01:13:43 --> Call to undefined function form_open()
+#0 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include()
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/BrondoL/Downloads/ppdb/app/Controllers/Home.php(12): view('Auth/login', Array)
+#4 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#9 {main}
+CRITICAL - 2021-06-26 01:36:00 --> Invalid file: Auth/login.php
+#0 /home/BrondoL/Downloads/ppdb/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/login.php')
+#1 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('Auth/login', Array, true)
+#2 /home/BrondoL/Downloads/ppdb/app/Controllers/Home.php(12): view('Auth/login', Array)
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#8 {main}
+CRITICAL - 2021-06-26 05:47:34 --> Invalid file: users/v_layout/index.php
+#0 /home/BrondoL/Downloads/ppdb/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/v_layout/...')
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(246): CodeIgniter\View\View->render('users/v_layout/...', Array, true)
+#2 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#3 /home/BrondoL/Downloads/ppdb/app/Controllers/Admin.php(12): view('admin/v_dashboa...', Array)
+#4 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Admin->index()
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#9 {main}
+CRITICAL - 2021-06-26 07:56:46 --> Undefined variable: head
+#0 /home/BrondoL/Downloads/ppdb/app/Views/admin/v_layout/sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/BrondoL/D...', 16, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#2 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/BrondoL/Downloads/ppdb/system/View/View.php(487): CodeIgniter\View\View->render('admin/v_layout/...', NULL, true)
+#4 /home/BrondoL/Downloads/ppdb/app/Views/admin/v_layout/index.php(2): CodeIgniter\View\View->include('admin/v_layout/...')
+#5 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#6 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/BrondoL/Downloads/ppdb/system/View/View.php(246): CodeIgniter\View\View->render('admin/v_layout/...', Array, true)
+#8 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('admin/v_pendaft...', Array, true)
+#9 /home/BrondoL/Downloads/ppdb/app/Controllers/Info.php(12): view('admin/v_pendaft...', Array)
+#10 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Info->index()
+#11 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Info))
+#12 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#15 {main}
+CRITICAL - 2021-06-26 07:57:12 --> Undefined variable: head
+#0 /home/BrondoL/Downloads/ppdb/app/Views/admin/v_layout/sidebar.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/BrondoL/D...', 16, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#2 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/BrondoL/Downloads/ppdb/system/View/View.php(487): CodeIgniter\View\View->render('admin/v_layout/...', NULL, true)
+#4 /home/BrondoL/Downloads/ppdb/app/Views/admin/v_layout/index.php(2): CodeIgniter\View\View->include('admin/v_layout/...')
+#5 /home/BrondoL/Downloads/ppdb/system/View/View.php(230): include('/home/BrondoL/D...')
+#6 /home/BrondoL/Downloads/ppdb/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/BrondoL/Downloads/ppdb/system/View/View.php(246): CodeIgniter\View\View->render('admin/v_layout/...', Array, true)
+#8 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('admin/v_user/in...', Array, true)
+#9 /home/BrondoL/Downloads/ppdb/app/Controllers/User.php(12): view('admin/v_user/in...', Array)
+#10 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\User->index()
+#11 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#12 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#15 {main}
+CRITICAL - 2021-06-26 20:31:19 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:31:20 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:32:23 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:33:30 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:33:31 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:33:32 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:33:32 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:33:33 --> Undefined property: App\Controllers\Auth::$UserModel
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 30, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:00 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:06 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:07 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:07 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:08 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:08 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:08 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:08 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:08 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:08 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:09 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:09 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:09 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:09 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:09 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 20:36:31 --> Undefined index: nama
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Auth.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/BrondoL/D...', 39, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Auth->validasi()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 21:16:42 --> Invalid file: welcome_messages.php
+#0 /home/BrondoL/Downloads/ppdb/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 /home/BrondoL/Downloads/ppdb/system/Common.php(1271): CodeIgniter\View\View->render('welcome_message...', Array, true)
+#2 /home/BrondoL/Downloads/ppdb/app/Controllers/Home.php(9): view('welcome_message...')
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#8 {main}
+CRITICAL - 2021-06-26 23:22:20 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:22 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:35 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:35 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:36 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:36 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:38 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:39 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:39 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:40 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:40 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:40 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:40 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:40 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:22:40 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:23:20 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:23:47 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:23:49 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:23:52 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:23:52 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
+CRITICAL - 2021-06-26 23:23:53 --> Undefined property: App\Controllers\Daftar::$ppdb
+#0 /home/BrondoL/Downloads/ppdb/app/Controllers/Daftar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/BrondoL/D...', 57, Array)
+#1 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(928): App\Controllers\Daftar->simpan()
+#2 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Daftar))
+#3 /home/BrondoL/Downloads/ppdb/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/BrondoL/Downloads/ppdb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/BrondoL/Downloads/ppdb/system/Commands/Server/rewrite.php(45): require_once('/home/BrondoL/D...')
+#6 {main}
